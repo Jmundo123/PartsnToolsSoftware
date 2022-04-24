@@ -175,8 +175,8 @@ namespace PartsnToolsSoftware
             }
         }
         int Item_Key = 0, ItemStock;
-        int ItemNum, ItemPrice, InvTotal;
-        decimal ItemQty;
+        int ItemNum;
+        decimal ItemQty, InvTotal, ItemPrice;
         private void printDocument1_PrintPage(object sender, System.Drawing.Printing.PrintPageEventArgs e)
         {
             e.Graphics.DrawString("Parts n' Tools", new Font("Century Gothic", 12, FontStyle.Bold), Brushes.Red, new Point(80));
@@ -185,13 +185,13 @@ namespace PartsnToolsSoftware
             {
                 ItemNum = Convert.ToInt32(row.Cells["Column1"].Value);
                 PartName = "" + row.Cells["Column2"].Value;
-                ItemPrice = Convert.ToInt32(row.Cells["Column3"].Value);
+                ItemPrice = Convert.ToDecimal(row.Cells["Column3"].Value);
                 ItemQty = Convert.ToDecimal(row.Cells["Column4"].Value); 
-                InvTotal = Convert.ToInt32(row.Cells["Column5"].Value);
+                InvTotal = Convert.ToDecimal(row.Cells["Column5"].Value);
                 e.Graphics.DrawString("" + ItemNum, new Font("Century Gothic", 8, FontStyle.Bold), Brushes.Blue, new Point(26, position));
                 e.Graphics.DrawString("" + PartName, new Font("Century Gothic", 8, FontStyle.Bold), Brushes.Blue, new Point(45, position));
-                e.Graphics.DrawString("   $" + "" + ItemPrice, new Font("Century Gothic", 8, FontStyle.Bold), Brushes.Blue, new Point(120, position));
-                e.Graphics.DrawString("  " + ItemQty, new Font("Century Gothic", 8, FontStyle.Bold), Brushes.Blue, new Point(170, position));
+                e.Graphics.DrawString("   $" + "" + ItemQty, new Font("Century Gothic", 8, FontStyle.Bold), Brushes.Blue, new Point(120, position));
+                e.Graphics.DrawString("  " + ItemPrice, new Font("Century Gothic", 8, FontStyle.Bold), Brushes.Blue, new Point(170, position));
                 e.Graphics.DrawString("" + InvTotal, new Font("Century Gothic", 8, FontStyle.Bold), Brushes.Blue, new Point(235, position));
                 position = position + 20;
 
