@@ -133,7 +133,8 @@ namespace PartsnToolsSoftware
             Transactions_Connetion.Close();
         }
 
-        int n = 0, GrandTotal = 0;
+        int n = 0;
+        decimal GrandTotal = 0;
 
 
         private void label2_Click(object sender, EventArgs e)
@@ -152,13 +153,13 @@ namespace PartsnToolsSoftware
         }
         private void AddBillButton_Click(object sender, EventArgs e)
         {
-            if (ItemQuantityTb.Text == "" || Convert.ToInt32(ItemQuantityTb.Text) > ItemStock)
+            if (ItemQuantityTb.Text == "" || Convert.ToDecimal(ItemQuantityTb.Text) > ItemStock)
             {
                 MessageBox.Show("Enter Correct Quantity");
             }
             else
             {
-                int total = Convert.ToInt32(ItemQuantityTb.Text) * Convert.ToInt32(ItemPriceTb.Text);
+                decimal total = Convert.ToDecimal(ItemQuantityTb.Text) * Convert.ToDecimal(ItemPriceTb.Text); //decimal
                 DataGridViewRow NewRow = new DataGridViewRow();
                 NewRow.CreateCells(BillGridData);
                 NewRow.Cells[0].Value = n + 1;
@@ -174,8 +175,8 @@ namespace PartsnToolsSoftware
             }
         }
         int Item_Key = 0, ItemStock;
-        int ItemNum, ItemPrice, ItemQty, InvTotal;
-
+        int ItemNum, ItemPrice, InvTotal;
+        decimal ItemQty;
         private void printDocument1_PrintPage(object sender, System.Drawing.Printing.PrintPageEventArgs e)
         {
             e.Graphics.DrawString("Parts n' Tools", new Font("Century Gothic", 12, FontStyle.Bold), Brushes.Red, new Point(80));
@@ -185,7 +186,7 @@ namespace PartsnToolsSoftware
                 ItemNum = Convert.ToInt32(row.Cells["Column1"].Value);
                 PartName = "" + row.Cells["Column2"].Value;
                 ItemPrice = Convert.ToInt32(row.Cells["Column3"].Value);
-                ItemQty = Convert.ToInt32(row.Cells["Column4"].Value);
+                ItemQty = Convert.ToDecimal(row.Cells["Column4"].Value); 
                 InvTotal = Convert.ToInt32(row.Cells["Column5"].Value);
                 e.Graphics.DrawString("" + ItemNum, new Font("Century Gothic", 8, FontStyle.Bold), Brushes.Blue, new Point(26, position));
                 e.Graphics.DrawString("" + PartName, new Font("Century Gothic", 8, FontStyle.Bold), Brushes.Blue, new Point(45, position));
