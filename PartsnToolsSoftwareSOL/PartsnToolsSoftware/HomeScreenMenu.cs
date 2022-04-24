@@ -22,7 +22,6 @@ namespace PartsnToolsSoftware
             CountCustomers();
             SalesTotalAmount();
             SelectEmployeeSalesInfo();
-            //SalesTotalAmountByEmployee();
             BestEmployee();
             BestCustomer();
         }

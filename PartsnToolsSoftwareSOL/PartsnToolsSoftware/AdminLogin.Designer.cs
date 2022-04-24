@@ -66,6 +66,7 @@
             this.AdminPasswordTb.Location = new System.Drawing.Point(123, 142);
             this.AdminPasswordTb.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.AdminPasswordTb.Name = "AdminPasswordTb";
+            this.AdminPasswordTb.PasswordChar = '*';
             this.AdminPasswordTb.Size = new System.Drawing.Size(174, 23);
             this.AdminPasswordTb.TabIndex = 29;
             // 

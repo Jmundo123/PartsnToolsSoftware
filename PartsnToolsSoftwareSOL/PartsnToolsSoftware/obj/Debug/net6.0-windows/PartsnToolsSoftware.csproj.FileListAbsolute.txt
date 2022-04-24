@@ -60,3 +60,34 @@ C:\Users\Jesus\Desktop\PartsnToolsSoftwareSOL\PartsnToolsSoftware\obj\Debug\net6
 C:\Users\Jesus\Desktop\PartsnToolsSoftwareSOL\PartsnToolsSoftware\obj\Debug\net6.0-windows\PartsnToolsSoftware.pdb
 C:\Users\Jesus\Desktop\PartsnToolsSoftwareSOL\PartsnToolsSoftware\obj\Debug\net6.0-windows\PartsnToolsSoftware.genruntimeconfig.cache
 C:\Users\Jesus\Desktop\PartsnToolsSoftwareSOL\PartsnToolsSoftware\obj\Debug\net6.0-windows\ref\PartsnToolsSoftware.dll
+C:\Users\Jesus\Desktop\PartsnTools Ver 1.2\PartsnToolsSoftwareSOL\PartsnToolsSoftware\bin\Debug\net6.0-windows\PartsnToolsSoftware.exe
+C:\Users\Jesus\Desktop\PartsnTools Ver 1.2\PartsnToolsSoftwareSOL\PartsnToolsSoftware\bin\Debug\net6.0-windows\PartsnToolsSoftware.deps.json
+C:\Users\Jesus\Desktop\PartsnTools Ver 1.2\PartsnToolsSoftwareSOL\PartsnToolsSoftware\bin\Debug\net6.0-windows\PartsnToolsSoftware.runtimeconfig.json
+C:\Users\Jesus\Desktop\PartsnTools Ver 1.2\PartsnToolsSoftwareSOL\PartsnToolsSoftware\bin\Debug\net6.0-windows\PartsnToolsSoftware.dll
+C:\Users\Jesus\Desktop\PartsnTools Ver 1.2\PartsnToolsSoftwareSOL\PartsnToolsSoftware\bin\Debug\net6.0-windows\PartsnToolsSoftware.pdb
+C:\Users\Jesus\Desktop\PartsnTools Ver 1.2\PartsnToolsSoftwareSOL\PartsnToolsSoftware\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\Jesus\Desktop\PartsnTools Ver 1.2\PartsnToolsSoftwareSOL\PartsnToolsSoftware\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\Jesus\Desktop\PartsnTools Ver 1.2\PartsnToolsSoftwareSOL\PartsnToolsSoftware\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\Jesus\Desktop\PartsnTools Ver 1.2\PartsnToolsSoftwareSOL\PartsnToolsSoftware\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\Jesus\Desktop\PartsnTools Ver 1.2\PartsnToolsSoftwareSOL\PartsnToolsSoftware\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Jesus\Desktop\PartsnTools Ver 1.2\PartsnToolsSoftwareSOL\PartsnToolsSoftware\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Jesus\Desktop\PartsnTools Ver 1.2\PartsnToolsSoftwareSOL\PartsnToolsSoftware\obj\Debug\net6.0-windows\PartsnToolsSoftware.csproj.AssemblyReference.cache
+C:\Users\Jesus\Desktop\PartsnTools Ver 1.2\PartsnToolsSoftwareSOL\PartsnToolsSoftware\obj\Debug\net6.0-windows\PartsnToolsSoftware.AdminLogin.resources
+C:\Users\Jesus\Desktop\PartsnTools Ver 1.2\PartsnToolsSoftwareSOL\PartsnToolsSoftware\obj\Debug\net6.0-windows\PartsnToolsSoftware.Customers.resources
+C:\Users\Jesus\Desktop\PartsnTools Ver 1.2\PartsnToolsSoftwareSOL\PartsnToolsSoftware\obj\Debug\net6.0-windows\PartsnToolsSoftware.Employees.resources
+C:\Users\Jesus\Desktop\PartsnTools Ver 1.2\PartsnToolsSoftwareSOL\PartsnToolsSoftware\obj\Debug\net6.0-windows\PartsnToolsSoftware.HomeScreenMenu.resources
+C:\Users\Jesus\Desktop\PartsnTools Ver 1.2\PartsnToolsSoftwareSOL\PartsnToolsSoftware\obj\Debug\net6.0-windows\PartsnToolsSoftware.Inventory.resources
+C:\Users\Jesus\Desktop\PartsnTools Ver 1.2\PartsnToolsSoftwareSOL\PartsnToolsSoftware\obj\Debug\net6.0-windows\PartsnToolsSoftware.Manufacturers.resources
+C:\Users\Jesus\Desktop\PartsnTools Ver 1.2\PartsnToolsSoftwareSOL\PartsnToolsSoftware\obj\Debug\net6.0-windows\PartsnToolsSoftware.Transactions.resources
+C:\Users\Jesus\Desktop\PartsnTools Ver 1.2\PartsnToolsSoftwareSOL\PartsnToolsSoftware\obj\Debug\net6.0-windows\PartsnToolsSoftware.UserLogin.resources
+C:\Users\Jesus\Desktop\PartsnTools Ver 1.2\PartsnToolsSoftwareSOL\PartsnToolsSoftware\obj\Debug\net6.0-windows\PartsnToolsSoftware.csproj.GenerateResource.cache
+C:\Users\Jesus\Desktop\PartsnTools Ver 1.2\PartsnToolsSoftwareSOL\PartsnToolsSoftware\obj\Debug\net6.0-windows\PartsnToolsSoftware.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jesus\Desktop\PartsnTools Ver 1.2\PartsnToolsSoftwareSOL\PartsnToolsSoftware\obj\Debug\net6.0-windows\PartsnToolsSoftware.AssemblyInfoInputs.cache
+C:\Users\Jesus\Desktop\PartsnTools Ver 1.2\PartsnToolsSoftwareSOL\PartsnToolsSoftware\obj\Debug\net6.0-windows\PartsnToolsSoftware.AssemblyInfo.cs
+C:\Users\Jesus\Desktop\PartsnTools Ver 1.2\PartsnToolsSoftwareSOL\PartsnToolsSoftware\obj\Debug\net6.0-windows\PartsnToolsSoftware.csproj.CoreCompileInputs.cache
+C:\Users\Jesus\Desktop\PartsnTools Ver 1.2\PartsnToolsSoftwareSOL\PartsnToolsSoftware\obj\Debug\net6.0-windows\PartsnToolsSoftware.csproj.CopyComplete
+C:\Users\Jesus\Desktop\PartsnTools Ver 1.2\PartsnToolsSoftwareSOL\PartsnToolsSoftware\obj\Debug\net6.0-windows\PartsnToolsSoftware.dll
+C:\Users\Jesus\Desktop\PartsnTools Ver 1.2\PartsnToolsSoftwareSOL\PartsnToolsSoftware\obj\Debug\net6.0-windows\refint\PartsnToolsSoftware.dll
+C:\Users\Jesus\Desktop\PartsnTools Ver 1.2\PartsnToolsSoftwareSOL\PartsnToolsSoftware\obj\Debug\net6.0-windows\PartsnToolsSoftware.pdb
+C:\Users\Jesus\Desktop\PartsnTools Ver 1.2\PartsnToolsSoftwareSOL\PartsnToolsSoftware\obj\Debug\net6.0-windows\PartsnToolsSoftware.genruntimeconfig.cache
+C:\Users\Jesus\Desktop\PartsnTools Ver 1.2\PartsnToolsSoftwareSOL\PartsnToolsSoftware\obj\Debug\net6.0-windows\ref\PartsnToolsSoftware.dll

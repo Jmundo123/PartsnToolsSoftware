@@ -460,11 +460,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jesus\\Desktop\\PartsnToolsSoftwareSOL\\PartsnToolsSoftware\\PartsnToolsSoftware.csproj",
+      "projectUniqueName": "C:\\Users\\Jesus\\Desktop\\PartsnTools Ver 1.2\\PartsnToolsSoftwareSOL\\PartsnToolsSoftware\\PartsnToolsSoftware.csproj",
       "projectName": "PartsnToolsSoftware",
-      "projectPath": "C:\\Users\\Jesus\\Desktop\\PartsnToolsSoftwareSOL\\PartsnToolsSoftware\\PartsnToolsSoftware.csproj",
+      "projectPath": "C:\\Users\\Jesus\\Desktop\\PartsnTools Ver 1.2\\PartsnToolsSoftwareSOL\\PartsnToolsSoftware\\PartsnToolsSoftware.csproj",
       "packagesPath": "C:\\Users\\Jesus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jesus\\Desktop\\PartsnToolsSoftwareSOL\\PartsnToolsSoftware\\obj\\",
+      "outputPath": "C:\\Users\\Jesus\\Desktop\\PartsnTools Ver 1.2\\PartsnToolsSoftwareSOL\\PartsnToolsSoftware\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

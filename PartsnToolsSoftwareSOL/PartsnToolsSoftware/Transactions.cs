@@ -18,7 +18,7 @@ namespace PartsnToolsSoftware
         {
             InitializeComponent();
             ShowInventory();
-            ShowTransactionBill();
+            ShowEmployeeName();
             EmployeeNameLabel.Text = UserLogin.UserName;
             SelectCustomerNumber();
         }
@@ -98,7 +98,7 @@ namespace PartsnToolsSoftware
                     command.ExecuteNonQuery();
                     MessageBox.Show("Transaction Saved");
                     Transactions_Connetion.Close();
-                    ShowTransactionBill();
+                    ShowEmployeeName();
                 }
                 catch(Exception exception)
                 {
@@ -108,7 +108,7 @@ namespace PartsnToolsSoftware
         }
 
 
-        private void ShowTransactionBill()
+        private void ShowEmployeeName()
         {
             Transactions_Connetion.Open();
             string Bill_Query = "Select * from TransactionTableData where EmployeeName='" + EmployeeNameLabel.Text + "'";

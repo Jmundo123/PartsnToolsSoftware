@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "P6rDxGM9nflnf+EUaNr7Xu6sMaDBUIlcmFpb3E6dCUSKHQM1rBtsih3+/tgRtaRgwNQt0e3hXVlSHK6hhwAT1A==",
+  "dgSpecHash": "ORbPbiUt3uFXQkLmlJAPhoBSmx16sdkFbYz8EAGK+chvkpbZzzUcCWBXgrbf9HoeQ0hz/xe7BRN+VjnLESBssQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Jesus\\Desktop\\PartsnToolsSoftwareSOL\\PartsnToolsSoftware\\PartsnToolsSoftware.csproj",
+  "projectFilePath": "C:\\Users\\Jesus\\Desktop\\PartsnTools Ver 1.2\\PartsnToolsSoftwareSOL\\PartsnToolsSoftware\\PartsnToolsSoftware.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jesus\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Jesus\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
