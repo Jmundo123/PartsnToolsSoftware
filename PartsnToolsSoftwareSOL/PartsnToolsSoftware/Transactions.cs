@@ -133,8 +133,8 @@ namespace PartsnToolsSoftware
             Transactions_Connetion.Close();
         }
 
-        int n = 0;
-        decimal GrandTotal = 0;
+        
+        decimal GrandTotal = 0, n = 0;
 
 
         private void label2_Click(object sender, EventArgs e)

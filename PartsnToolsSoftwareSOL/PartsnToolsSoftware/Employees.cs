@@ -146,7 +146,7 @@ namespace PartsnToolsSoftware
                 try
                 {
                     EmployeeData_Connection.Open();
-                    SqlCommand command = new SqlCommand("Update EmployeeTableData Set EmployeeName=@EmpName, EmployeeAddress=@EmpAddress, EmployeePhone=@EmpPhone, EmployeeDateJoined=@EmpDateJ, EmployeeGender=@EmpGen, EmployeePassword=@EmpPass", EmployeeData_Connection);
+                    SqlCommand command = new SqlCommand("Update EmployeeTableData Set EmployeeName=@EmpName, EmployeeAddress=@EmpAddress, EmployeePhone=@EmpPhone, EmployeeDateJoined=@EmpDateJ, EmployeeGender=@EmpGen, EmployeePassword=@EmpPass where EmployeeNumber=@EmployeeKey", EmployeeData_Connection);
 
                     command.Parameters.AddWithValue("@EmpName", EnterEmployeeNameTb.Text);
                     command.Parameters.AddWithValue("@EmpDateJ", EnterEmployeeDateJoined.Value.Date);
