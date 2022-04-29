@@ -109,7 +109,7 @@ namespace PartsnToolsSoftware
             }
             else
             {
-                try ////If the admin fills in every information from the text boxes on the if statement, then data will try be inserted into the "Bill" grid and will also cactch and display exceptions if something goes wrong
+                try //If the admin fills in every information from the text boxes on the if statement, then data will try be inserted into the "Bill" grid and will also cactch and display exceptions if something goes wrong
                 {
                     Transactions_Connetion.Open();
                     SqlCommand command = new SqlCommand("insert into TransactionTableData(EmployeeName,CustNumber, CustName, TransactionDate, TransactionAmount)values(@EmpName,@CustNum,@Cust_Name,@TransDate,@TransAmount)", Transactions_Connetion);//Inserting data to grid from database using the value parameters
@@ -139,7 +139,7 @@ namespace PartsnToolsSoftware
             string Bill_Query = "Select * from TransactionTableData where EmployeeName='" + EmployeeNameLabel.Text + "'";//Assigning Bill_Query to select data from EmployeeName in TransactionTableData  
             SqlDataAdapter Bill_DataAdapter = new SqlDataAdapter(Bill_Query, Transactions_Connetion); //Using the data adapter to retrieve data from Bill_Query
             SqlCommandBuilder Bill_Builder = new SqlCommandBuilder(Bill_DataAdapter);//Generating SQL commands to Bill_DataAdapter
-            var Bill_DataSet = new DataSet(); ////Assigning to a new Datset to store data.
+            var Bill_DataSet = new DataSet(); //Assigning to a new Datset to store data.
             Bill_DataAdapter.Fill(Bill_DataSet);//Filling the Bill_DataSet
             TransactionGridData.DataSource = Bill_DataSet.Tables[0];//Populating Bill_DataSet.Tables[0]
             Transactions_Connetion.Close();//Close connection
