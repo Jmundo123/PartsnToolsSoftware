@@ -59,12 +59,12 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.CustNameLabl = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.EmployeeNameLabel = new System.Windows.Forms.Label();
             this.printPreviewDialog1 = new System.Windows.Forms.PrintPreviewDialog();
             this.printDocument1 = new System.Drawing.Printing.PrintDocument();
-            this.CustNameLabl = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.TransactionGridData)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel5.SuspendLayout();
@@ -79,9 +79,9 @@
             this.TLogOutLbl.AutoSize = true;
             this.TLogOutLbl.Cursor = System.Windows.Forms.Cursors.Hand;
             this.TLogOutLbl.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
-            this.TLogOutLbl.Location = new System.Drawing.Point(75, 515);
+            this.TLogOutLbl.Location = new System.Drawing.Point(66, 386);
             this.TLogOutLbl.Name = "TLogOutLbl";
-            this.TLogOutLbl.Size = new System.Drawing.Size(81, 23);
+            this.TLogOutLbl.Size = new System.Drawing.Size(64, 19);
             this.TLogOutLbl.TabIndex = 11;
             this.TLogOutLbl.Text = "Log Out";
             this.TLogOutLbl.Click += new System.EventHandler(this.TLogOutLbl_Click);
@@ -90,9 +90,9 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe Print", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(33, 149);
+            this.label1.Location = new System.Drawing.Point(29, 112);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(151, 35);
+            this.label1.Size = new System.Drawing.Size(122, 28);
             this.label1.TabIndex = 1;
             this.label1.Text = "Parts n\' Tools";
             // 
@@ -100,9 +100,9 @@
             // 
             this.TransactionsLblS.AutoSize = true;
             this.TransactionsLblS.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.TransactionsLblS.Location = new System.Drawing.Point(18, 11);
+            this.TransactionsLblS.Location = new System.Drawing.Point(16, 8);
             this.TransactionsLblS.Name = "TransactionsLblS";
-            this.TransactionsLblS.Size = new System.Drawing.Size(117, 23);
+            this.TransactionsLblS.Size = new System.Drawing.Size(94, 19);
             this.TransactionsLblS.TabIndex = 21;
             this.TransactionsLblS.Text = "Transactions";
             // 
@@ -110,9 +110,9 @@
             // 
             this.GrandTotalLabel.AutoSize = true;
             this.GrandTotalLabel.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.GrandTotalLabel.Location = new System.Drawing.Point(597, 243);
+            this.GrandTotalLabel.Location = new System.Drawing.Point(522, 182);
             this.GrandTotalLabel.Name = "GrandTotalLabel";
-            this.GrandTotalLabel.Size = new System.Drawing.Size(56, 23);
+            this.GrandTotalLabel.Size = new System.Drawing.Size(46, 19);
             this.GrandTotalLabel.TabIndex = 33;
             this.GrandTotalLabel.Text = "BILL";
             // 
@@ -120,9 +120,9 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label9.Location = new System.Drawing.Point(570, 267);
+            this.label9.Location = new System.Drawing.Point(499, 200);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(117, 23);
+            this.label9.Size = new System.Drawing.Size(94, 19);
             this.label9.TabIndex = 32;
             this.label9.Text = "Transactions";
             // 
@@ -130,39 +130,41 @@
             // 
             this.TransactionGridData.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
             this.TransactionGridData.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.TransactionGridData.Location = new System.Drawing.Point(427, 292);
+            this.TransactionGridData.Location = new System.Drawing.Point(374, 219);
+            this.TransactionGridData.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.TransactionGridData.Name = "TransactionGridData";
             this.TransactionGridData.RowHeadersWidth = 51;
             this.TransactionGridData.RowTemplate.Height = 29;
             this.TransactionGridData.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.TransactionGridData.Size = new System.Drawing.Size(382, 163);
+            this.TransactionGridData.Size = new System.Drawing.Size(334, 122);
             this.TransactionGridData.TabIndex = 31;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(597, 16);
+            this.label4.Location = new System.Drawing.Point(522, 12);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(56, 23);
+            this.label4.Size = new System.Drawing.Size(46, 19);
             this.label4.TabIndex = 30;
             this.label4.Text = "BILL";
             // 
             // CustomerNameTb
             // 
             this.CustomerNameTb.Enabled = false;
-            this.CustomerNameTb.Location = new System.Drawing.Point(17, 135);
+            this.CustomerNameTb.Location = new System.Drawing.Point(15, 101);
+            this.CustomerNameTb.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.CustomerNameTb.Name = "CustomerNameTb";
-            this.CustomerNameTb.Size = new System.Drawing.Size(154, 27);
+            this.CustomerNameTb.Size = new System.Drawing.Size(135, 23);
             this.CustomerNameTb.TabIndex = 29;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label7.Location = new System.Drawing.Point(38, 165);
+            this.label7.Location = new System.Drawing.Point(33, 124);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(126, 23);
+            this.label7.Size = new System.Drawing.Size(101, 19);
             this.label7.TabIndex = 28;
             this.label7.Text = "Item Selected";
             // 
@@ -174,25 +176,28 @@
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Location = new System.Drawing.Point(-1, -1);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(219, 592);
+            this.panel1.Size = new System.Drawing.Size(192, 444);
             this.panel1.TabIndex = 25;
             // 
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.panel5.Controls.Add(this.TransactionsLblS);
-            this.panel5.Location = new System.Drawing.Point(33, 264);
+            this.panel5.Location = new System.Drawing.Point(29, 198);
+            this.panel5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(143, 48);
+            this.panel5.Size = new System.Drawing.Size(125, 36);
             this.panel5.TabIndex = 20;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(33, 37);
+            this.pictureBox1.Location = new System.Drawing.Point(29, 28);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(143, 92);
+            this.pictureBox1.Size = new System.Drawing.Size(125, 69);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -207,12 +212,13 @@
             this.Column3,
             this.Column4,
             this.Column5});
-            this.BillGridData.Location = new System.Drawing.Point(427, 44);
+            this.BillGridData.Location = new System.Drawing.Point(374, 33);
+            this.BillGridData.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.BillGridData.Name = "BillGridData";
             this.BillGridData.RowHeadersWidth = 51;
             this.BillGridData.RowTemplate.Height = 29;
             this.BillGridData.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.BillGridData.Size = new System.Drawing.Size(382, 163);
+            this.BillGridData.Size = new System.Drawing.Size(334, 122);
             this.BillGridData.TabIndex = 25;
             // 
             // Column1
@@ -254,9 +260,9 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label10.Location = new System.Drawing.Point(99, 267);
+            this.label10.Location = new System.Drawing.Point(87, 200);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(145, 23);
+            this.label10.Size = new System.Drawing.Size(116, 19);
             this.label10.TabIndex = 24;
             this.label10.Text = "Inventory Stock";
             // 
@@ -264,20 +270,22 @@
             // 
             this.InventoryGridData.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
             this.InventoryGridData.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.InventoryGridData.Location = new System.Drawing.Point(17, 292);
+            this.InventoryGridData.Location = new System.Drawing.Point(15, 219);
+            this.InventoryGridData.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.InventoryGridData.Name = "InventoryGridData";
             this.InventoryGridData.RowHeadersWidth = 51;
             this.InventoryGridData.RowTemplate.Height = 29;
             this.InventoryGridData.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.InventoryGridData.Size = new System.Drawing.Size(368, 163);
+            this.InventoryGridData.Size = new System.Drawing.Size(322, 122);
             this.InventoryGridData.TabIndex = 23;
             this.InventoryGridData.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.InventoryGridData_CellContentClick);
             // 
             // PrintBillButton
             // 
-            this.PrintBillButton.Location = new System.Drawing.Point(688, 224);
+            this.PrintBillButton.Location = new System.Drawing.Point(602, 168);
+            this.PrintBillButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.PrintBillButton.Name = "PrintBillButton";
-            this.PrintBillButton.Size = new System.Drawing.Size(91, 33);
+            this.PrintBillButton.Size = new System.Drawing.Size(80, 25);
             this.PrintBillButton.TabIndex = 22;
             this.PrintBillButton.Text = "Print";
             this.PrintBillButton.UseVisualStyleBackColor = true;
@@ -285,9 +293,10 @@
             // 
             // AddBillButton
             // 
-            this.AddBillButton.Location = new System.Drawing.Point(118, 224);
+            this.AddBillButton.Location = new System.Drawing.Point(103, 168);
+            this.AddBillButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.AddBillButton.Name = "AddBillButton";
-            this.AddBillButton.Size = new System.Drawing.Size(91, 33);
+            this.AddBillButton.Size = new System.Drawing.Size(80, 25);
             this.AddBillButton.TabIndex = 20;
             this.AddBillButton.Text = "Add to Bill";
             this.AddBillButton.UseVisualStyleBackColor = true;
@@ -300,42 +309,46 @@
             "Parts",
             "Tools",
             "Other"});
-            this.CustomerNumberCb.Location = new System.Drawing.Point(17, 76);
+            this.CustomerNumberCb.Location = new System.Drawing.Point(15, 57);
+            this.CustomerNumberCb.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.CustomerNumberCb.Name = "CustomerNumberCb";
-            this.CustomerNumberCb.Size = new System.Drawing.Size(146, 28);
+            this.CustomerNumberCb.Size = new System.Drawing.Size(128, 23);
             this.CustomerNumberCb.TabIndex = 18;
             this.CustomerNumberCb.SelectionChangeCommitted += new System.EventHandler(this.CustomerNumberCb_SelectionChangeCommitted);
             // 
             // ItemPriceTb
             // 
             this.ItemPriceTb.Enabled = false;
-            this.ItemPriceTb.Location = new System.Drawing.Point(177, 133);
+            this.ItemPriceTb.Location = new System.Drawing.Point(155, 100);
+            this.ItemPriceTb.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ItemPriceTb.Name = "ItemPriceTb";
-            this.ItemPriceTb.Size = new System.Drawing.Size(92, 27);
+            this.ItemPriceTb.Size = new System.Drawing.Size(81, 23);
             this.ItemPriceTb.TabIndex = 16;
             // 
             // ItemQuantityTb
             // 
-            this.ItemQuantityTb.Location = new System.Drawing.Point(177, 77);
+            this.ItemQuantityTb.Location = new System.Drawing.Point(155, 58);
+            this.ItemQuantityTb.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ItemQuantityTb.Name = "ItemQuantityTb";
-            this.ItemQuantityTb.Size = new System.Drawing.Size(92, 27);
+            this.ItemQuantityTb.Size = new System.Drawing.Size(81, 23);
             this.ItemQuantityTb.TabIndex = 15;
             // 
             // ItemNameTb
             // 
             this.ItemNameTb.Enabled = false;
-            this.ItemNameTb.Location = new System.Drawing.Point(17, 191);
+            this.ItemNameTb.Location = new System.Drawing.Point(15, 143);
+            this.ItemNameTb.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ItemNameTb.Name = "ItemNameTb";
-            this.ItemNameTb.Size = new System.Drawing.Size(155, 27);
+            this.ItemNameTb.Size = new System.Drawing.Size(136, 23);
             this.ItemNameTb.TabIndex = 14;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label6.Location = new System.Drawing.Point(195, 109);
+            this.label6.Location = new System.Drawing.Point(171, 82);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(49, 23);
+            this.label6.Size = new System.Drawing.Size(40, 19);
             this.label6.TabIndex = 11;
             this.label6.Text = "Cost";
             // 
@@ -343,9 +356,9 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label5.Location = new System.Drawing.Point(174, 52);
+            this.label5.Location = new System.Drawing.Point(152, 39);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(85, 23);
+            this.label5.Size = new System.Drawing.Size(67, 19);
             this.label5.TabIndex = 10;
             this.label5.Text = "Quantity";
             // 
@@ -355,9 +368,9 @@
             this.label8.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label8.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label8.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.label8.Location = new System.Drawing.Point(17, 16);
+            this.label8.Location = new System.Drawing.Point(15, 12);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(146, 23);
+            this.label8.Size = new System.Drawing.Size(118, 19);
             this.label8.TabIndex = 7;
             this.label8.Text = "Invetory Details";
             // 
@@ -384,18 +397,29 @@
             this.panel3.Controls.Add(this.label5);
             this.panel3.Controls.Add(this.label3);
             this.panel3.Controls.Add(this.label8);
-            this.panel3.Location = new System.Drawing.Point(234, 72);
+            this.panel3.Location = new System.Drawing.Point(205, 54);
+            this.panel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(880, 471);
+            this.panel3.Size = new System.Drawing.Size(770, 353);
             this.panel3.TabIndex = 26;
+            // 
+            // CustNameLabl
+            // 
+            this.CustNameLabl.AutoSize = true;
+            this.CustNameLabl.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.CustNameLabl.Location = new System.Drawing.Point(15, 80);
+            this.CustNameLabl.Name = "CustNameLabl";
+            this.CustNameLabl.Size = new System.Drawing.Size(118, 19);
+            this.CustNameLabl.TabIndex = 34;
+            this.CustNameLabl.Text = "Customer Name";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(17, 52);
+            this.label3.Location = new System.Drawing.Point(15, 39);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(107, 23);
+            this.label3.Size = new System.Drawing.Size(86, 19);
             this.label3.TabIndex = 8;
             this.label3.Text = "Customer #";
             // 
@@ -403,9 +427,9 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(569, 32);
+            this.label2.Location = new System.Drawing.Point(498, 24);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(198, 37);
+            this.label2.Size = new System.Drawing.Size(165, 31);
             this.label2.TabIndex = 24;
             this.label2.Text = "Transactions";
             this.label2.Click += new System.EventHandler(this.label2_Click);
@@ -414,9 +438,9 @@
             // 
             this.EmployeeNameLabel.AutoSize = true;
             this.EmployeeNameLabel.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.EmployeeNameLabel.Location = new System.Drawing.Point(922, 44);
+            this.EmployeeNameLabel.Location = new System.Drawing.Point(807, 33);
             this.EmployeeNameLabel.Name = "EmployeeNameLabel";
-            this.EmployeeNameLabel.Size = new System.Drawing.Size(54, 23);
+            this.EmployeeNameLabel.Size = new System.Drawing.Size(45, 19);
             this.EmployeeNameLabel.TabIndex = 27;
             this.EmployeeNameLabel.Text = "Sales";
             // 
@@ -435,27 +459,16 @@
             // 
             this.printDocument1.PrintPage += new System.Drawing.Printing.PrintPageEventHandler(this.printDocument1_PrintPage);
             // 
-            // CustNameLabl
-            // 
-            this.CustNameLabl.AutoSize = true;
-            this.CustNameLabl.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.CustNameLabl.Location = new System.Drawing.Point(17, 107);
-            this.CustNameLabl.Name = "CustNameLabl";
-            this.CustNameLabl.Size = new System.Drawing.Size(146, 23);
-            this.CustNameLabl.TabIndex = 34;
-            this.CustNameLabl.Text = "Customer Name";
-            // 
             // Transactions
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonShadow;
-            this.ClientSize = new System.Drawing.Size(1133, 589);
+            this.ClientSize = new System.Drawing.Size(991, 442);
             this.Controls.Add(this.EmployeeNameLabel);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.label2);
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Transactions";
             this.Text = "Transactions";
             this.Load += new System.EventHandler(this.Transactions_Load);
