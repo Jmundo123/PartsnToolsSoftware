@@ -40,10 +40,10 @@ namespace PartsnToolsSoftware
         public Transactions()
         {
             InitializeComponent();
-            ShowInventory();
-            ShowEmployeeName();
-            EmployeeNameLabel.Text = UserLogin.UserName;
-            SelectCustomerNumber();
+            ShowInventory();//Displays inventory in InventoryGridData_CellContentClick
+            ShowEmployeeName();//Showing employee name in the transaction grid
+            EmployeeNameLabel.Text = UserLogin.UserName; //Displays employee name on the top right of the transactions window
+            SelectCustomerNumber(); //Selecting customer number
         }
         SqlConnection Transactions_Connetion = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Jesus\Documents\PartsnToolsDatabaseServer.mdf;Integrated Security=True;Connect Timeout=30");//Finding to database location
 
@@ -87,11 +87,11 @@ namespace PartsnToolsSoftware
                 int NewQuantity = ItemStock - Convert.ToInt32(ItemQuantityTb.Text); //Subtracts Item stock from the quantity of items purchased
                 Transactions_Connetion.Open();//Open connection
                 SqlCommand command = new SqlCommand("Update InventoryTableData set ItemQuantity=@InvQty where ItemNumber=@ItemKey", Transactions_Connetion);
-
+                //Adding parameters to specific cells in the Transactions interface "Inventory" Grid.
                 command.Parameters.AddWithValue("@InvQty", NewQuantity);
                 command.Parameters.AddWithValue("@ItemKey", Item_Key);
 
-                command.ExecuteNonQuery();
+                command.ExecuteNonQuery(); //Executes the Update command
                 MessageBox.Show("Item Updated");
                 Transactions_Connetion.Close();//Close connection
                 ShowInventory();
