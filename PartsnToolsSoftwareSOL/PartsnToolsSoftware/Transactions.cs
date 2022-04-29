@@ -213,14 +213,14 @@ namespace PartsnToolsSoftware
             {
                 ItemNum = Convert.ToInt32(row.Cells["Column1"].Value);
                 PartName = "" + row.Cells["Column2"].Value;
-                ItemPrice = Convert.ToDecimal(row.Cells["Column3"].Value);
-                ItemQty = Convert.ToDecimal(row.Cells["Column4"].Value); 
+                ItemQty = Convert.ToDecimal(row.Cells["Column3"].Value);
+                ItemPrice = Convert.ToDecimal(row.Cells["Column4"].Value); 
                 InvTotal = Convert.ToDecimal(row.Cells["Column5"].Value);
                 e.Graphics.DrawString("" + ItemNum, new Font("Century Gothic", 8, FontStyle.Bold), Brushes.Blue, new Point(26, position));
                 e.Graphics.DrawString("" + PartName, new Font("Century Gothic", 8, FontStyle.Bold), Brushes.Blue, new Point(45, position));
-                e.Graphics.DrawString("   $" + "" + ItemQty, new Font("Century Gothic", 8, FontStyle.Bold), Brushes.Blue, new Point(120, position));
-                e.Graphics.DrawString("  " + ItemPrice, new Font("Century Gothic", 8, FontStyle.Bold), Brushes.Blue, new Point(170, position));
-                e.Graphics.DrawString("" + InvTotal, new Font("Century Gothic", 8, FontStyle.Bold), Brushes.Blue, new Point(235, position));
+                e.Graphics.DrawString("   $" + "" + ItemPrice, new Font("Century Gothic", 8, FontStyle.Bold), Brushes.Blue, new Point(120, position));
+                e.Graphics.DrawString("       " + ItemQty, new Font("Century Gothic", 8, FontStyle.Bold), Brushes.Blue, new Point(170, position));
+                e.Graphics.DrawString("$" + InvTotal, new Font("Century Gothic", 8, FontStyle.Bold), Brushes.Blue, new Point(235, position));
                 position = position + 20;
 
             }
